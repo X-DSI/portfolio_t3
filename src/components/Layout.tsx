@@ -8,7 +8,7 @@ type TLayoutProps = {
 
 const Layout = ({ children }: TLayoutProps) => {
   return (
-    <div>
+    <div className="flex">
       <NavBar />
       {children}
     </div>
