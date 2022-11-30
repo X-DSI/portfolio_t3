@@ -4,9 +4,9 @@ import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const NavBar = () => {
   return (
-    <div className="main-navbar-div inset-y-0 left-0 z-50 flex h-screen w-24 flex-col justify-between bg-orange-yellow">
+    <div className="main-navbar-div inset-y-0 left-0 z-50 flex h-screen w-24 flex-col justify-between bg-[#fed43a]">
       <div className="navbar-links flex h-screen flex-col content-center items-center justify-evenly text-lg font-light uppercase">
-        <Link className="font-bold" href="/">
+        <Link className="text-xl font-bold" href="/">
           DSI
         </Link>
         <Link className="-rotate-90" href="/">
