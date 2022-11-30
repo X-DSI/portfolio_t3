@@ -20,14 +20,14 @@ const NavBar = () => {
         </Link>
       </div>
       <div className="navbar-icons relative mb-16 flex flex-col content-center items-center justify-around">
-        <Link href="github.com">
+        <Link href="https://github.com/X-DSI" target="_blank">
           <FaGithub className="m-3 h-8 w-8" />
         </Link>
-        <Link href="github.com">
-          <FaInstagram className="m-3 h-8 w-8" />
-        </Link>
-        <Link href="github.com">
+        <Link href="https://www.linkedin.com/in/xdsi/" target="_blank">
           <FaLinkedin className=" m-3 h-8 w-8" />
+        </Link>
+        <Link href="https://www.instagram.com/x.dsi.raw/" target="_blank">
+          <FaInstagram className="m-3 h-8 w-8" />
         </Link>
       </div>
     </div>
