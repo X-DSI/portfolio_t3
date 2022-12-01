@@ -4,7 +4,7 @@ import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const NavBar = () => {
   return (
-    <div className="main-navbar-div fixed inset-y-0 left-0 z-50 flex h-screen w-24 flex-col justify-between bg-primary">
+    <div className="main-navbar-div inset-y-0 left-0 z-50 flex h-screen w-24 flex-col justify-between bg-primary">
       <div className="navbar-links flex h-screen flex-col content-center items-center justify-evenly text-lg font-light uppercase">
         <Link className="text-xl font-bold" href="/">
           DSI
@@ -19,7 +19,7 @@ const NavBar = () => {
           Contact
         </Link>
       </div>
-      <div className="navbar-icons relative mb-16 flex flex-col content-center items-center justify-around">
+      <div className="navbar-icons mb-16 flex flex-col content-center items-center justify-around">
         <Link href="https://github.com/X-DSI" target="_blank">
           <FaGithub className="m-3 h-8 w-8" />
         </Link>
