@@ -11,8 +11,10 @@ const Layout = ({ children }: TLayoutProps) => {
   return (
     <div className="flex">
       <NavBar />
-      {/* <Background /> */}
-      {children}
+      <div className=" layout-wrapper w-full">
+        <Background />
+        <div className="absolute inset-0 text-white">{children}</div>
+      </div>
     </div>
   );
 };
