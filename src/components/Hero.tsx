@@ -9,10 +9,10 @@ const Hero = () => {
             <h1>Hi there, I&apos;m</h1>
           </div>
           <div className="h1-wrapper text-9xl text-primary">
-            <h1>Edgar Deiner</h1>
+            <h1>DSI</h1>
           </div>
           <div className="h1-wrapper text-9xl text-primary">
-            <h1>UX / UI Designer</h1>
+            <h1>Human</h1>
           </div>
         </div>
       </div>
