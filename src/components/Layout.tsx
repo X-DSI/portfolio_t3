@@ -10,12 +10,12 @@ type TLayoutProps = {
 const Layout = ({ children }: TLayoutProps) => {
   return (
     <div className="layout-wrapper flex">
-      <div className="navbar-layout-wrapper fixed">
-        <NavBar />
-      </div>
       <div className="layout-content-wrapper flex w-full">
         <Background />
         <div className="absolute inset-0 ml-24">{children}</div>
+      </div>
+      <div className="navbar-layout-wrapper fixed">
+        <NavBar />
       </div>
     </div>
   );
