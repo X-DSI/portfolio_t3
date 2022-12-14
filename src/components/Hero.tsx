@@ -2,7 +2,6 @@ import Image from "next/image";
 import React from "react";
 import LaptopGuy from "../assets/img/latop-guy.png";
 
-// breaking due to pnpm not working
 const Hero = () => {
   return (
     <div className="hero-section h-full">
