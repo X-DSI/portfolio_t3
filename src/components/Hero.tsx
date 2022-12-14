@@ -6,15 +6,15 @@ const Hero = () => {
   return (
     <div className="hero-section h-full">
       <div className="hero-wrapper grid grid-cols-2">
-        <div className="hero-text-field">
+        <div className="hero-text-field mt-12 ml-11">
           <div className="h1-wrapper text-9xl text-primary">
-            <h1>Hi there, I&apos;m</h1>
+            <h1>Hi there,</h1>
           </div>
           <div className="h1-wrapper text-9xl text-primary">
-            <h1>DSI</h1>
+            <h1>I&apos;m DSI</h1>
           </div>
           <div className="h1-wrapper text-9xl text-primary">
-            <h1>Human</h1>
+            <h1>Nobody</h1>
           </div>
         </div>
         <div className="up-right-colum-wrapper flex">
