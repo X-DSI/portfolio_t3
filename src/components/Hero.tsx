@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="hero-section h-full">
       <div className="hero-wrapper grid grid-cols-2">
-        <div className="hero-text-field mt-12 ml-11">
+        <div className="hero-text-field ml-11">
           <div className="h1-wrapper text-9xl text-primary">
             <h1>Hi there,</h1>
           </div>
